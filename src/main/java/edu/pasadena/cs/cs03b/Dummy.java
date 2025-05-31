@@ -31,7 +31,7 @@ public class Dummy {
     }
 
     public static int dummy() {
-        return 42;
+        return 0 ;
     }
 }
 
