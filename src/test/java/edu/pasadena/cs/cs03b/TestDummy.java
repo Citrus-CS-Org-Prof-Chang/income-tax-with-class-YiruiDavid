@@ -1,25 +1,13 @@
 package edu.pasadena.cs.cs03b;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvSource;
-
-import java.io.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestDummy {
 
-   @Test
-   public void testDummy()
-   {
-     // action
-     int iResult = Dummy.dummy();
-     // assertion
-     assertEquals(0, iResult);
-
-     // TODO: add your own test cases
-
-   }
+    @Test
+    public void testDummy() {
+        int iResult = Dummy.dummy();
+        assertEquals(0, iResult); // Test will pass if Dummy.dummy() returns 0
+    }
 }
