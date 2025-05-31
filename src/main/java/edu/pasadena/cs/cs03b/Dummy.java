@@ -3,8 +3,12 @@ import java.util.Scanner;
 public class Dummy {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		// TODO: add you logic here
 		 int[] salaryBrackets = {0, 20000, 50000, 100000, Integer.MAX_VALUE};
+=======
+		int[] salaryBrackets = {0, 20000, 50000, 100000, Integer.MAX_VALUE};
+>>>>>>> 49bd0e8 (Income Tax Calculation)
         double[] taxRates = {0.0, 0.10, 0.20, 0.30, 0.40};
 
         TaxTableTools tool = new TaxTableTools();
